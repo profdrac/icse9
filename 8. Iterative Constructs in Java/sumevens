@@ -1,0 +1,14 @@
+//WAP to show sum of all even numbers between 50-100
+
+class sumevens
+{
+    public static void main()
+    {
+        int sum = 0;
+        for(int i=50; i<=100; i=i+2)
+        {
+            sum = sum + i;
+        }
+        System.out.println("Sum of even numbers is "+sum);
+    }
+}
